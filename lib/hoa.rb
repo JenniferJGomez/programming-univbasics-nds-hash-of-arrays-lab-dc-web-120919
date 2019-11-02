@@ -13,6 +13,7 @@ def add_character(show, name)
   }
   
   show[:chipmunks] << "Dave"
+  show[:chipmunks]
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
