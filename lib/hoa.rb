@@ -12,7 +12,7 @@ def add_character(show, name)
     :jetsons => ["George", "Jane", "Judy", "Elroy"]
   }
   
-  show[:chipmunks] = "Dave"
+  show[:chipmunks] << "Dave"
   show
   # Write your implementation here
   # Should return the array of the 'show' argument
